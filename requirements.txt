@@ -1,0 +1,4 @@
+dash==2.8.1
+SQLAlchemy==2.0.3
+Flask-SQLAlchemy==3.0.3
+plotly==5.13.0
