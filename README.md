@@ -1,7 +1,7 @@
 # Recombination-Annotator
 This is a open code for online application "Genomic Alteration Annotation Platform". In the platform, you can visualize specific sequence data, annotate recombination events, and effectively submit annotation to your own database.
 
-# Quick setup
+## Quick setup
 
 You may clone the repository and open your terminal/command in the root folder. Before running the application, you need to create a virtual environment by anaconda.
 
@@ -30,6 +30,6 @@ gunicorn app:server --workers 8 -b :11122
 ```
 
 
-# Screenshot
+## Screenshot
 
 ![screenshot](img/screenshot.jpg)
