@@ -11,9 +11,9 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 import sqlite3
-from sqlalchemy import Table, create_engine, Column, String, Integer, MetaData, Index, ForeignKey
 from sqlalchemy.sql import select
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import Table, create_engine, Column, String, Integer, MetaData, Index, ForeignKey
 
 from flask_login import LoginManager, login_user, current_user, logout_user, UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
