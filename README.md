@@ -33,3 +33,14 @@ gunicorn app:server --workers 8 -b :11122
 ## Screenshot
 
 ![screenshot](img/screenshot.jpg)
+
+## Citation
+
+```bibtex
+@misc{recoman,
+  title={Recombination Annotator},
+  author={Xiaozhuan Liang, Daoqiong Zheng},
+  year={2025},
+  howpublished={\url{https://github.com/ZJUOC-ZhengLab/Recombination-Annotator}}
+}
+```
